@@ -23,7 +23,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="acodemia_pygame.py" />
     <Compile Include="main.py">
       <SubType>Code</SubType>
     </Compile>
@@ -36,7 +35,6 @@
     <Folder Include="__pycache__\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ship.png" />
     <Content Include="__pycache__\SCIPython.cpython-36.pyc" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

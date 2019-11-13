@@ -1,4 +1,11 @@
 """
+Funkcja dodaje dwie liczby
+"""
+def sum(a, b):
+    return (a + b)
+    pass
+
+"""
 Funkcja zwraca większą liczbę w dwóch liczb całkowitych
 """
 def max(a, b):
@@ -28,6 +35,7 @@ def maximum(tab, size):
         if(tab[i]> max):
             max = tab[i]
     return max
+    pass
 
 """
 Funkcja zwraca średnią arytmetyczną
@@ -35,6 +43,7 @@ Funkcja zwraca średnią arytmetyczną
 def average(a, b):
     #return ((a+b)/2)
     return ((a + b) * 0.5)
+    pass
 
 """
 Funkcja zwraca wartość bezwzlędną
@@ -43,12 +52,14 @@ def abs(value):
     if(value < 0):
         return -value
     return value
+    pass
 
 """
 Funkcja zwraca część dziesiętną
 """
 def decimalPart(value):
     return (value - int(value))
+    pass
 
 """
 Funkcja zwraca flagę, czy rok jest przestępny (and. leap year)
