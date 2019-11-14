@@ -1,4 +1,12 @@
 """
+  ________________________
+ | SCIPython -  functions |
+ | SCI - 2019-2020        |
+ |________________________|
+
+"""
+
+"""
 Funkcja dodaje dwie liczby
 """
 def sum(a, b):
