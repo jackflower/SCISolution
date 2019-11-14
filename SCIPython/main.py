@@ -18,4 +18,5 @@ tablica.append(3)
 #print(suma(12.5, 34, 54.5))
 #print(SCIPython.leapYear(1962))
 #print(SCIPython.decimalPart(3.14))
+print(SCIPython.isEven(34))
 

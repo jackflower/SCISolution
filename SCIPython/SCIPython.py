@@ -67,3 +67,13 @@ Funkcja zwraca flagę, czy rok jest przestępny (and. leap year)
 def leapYear(year):
     return ((year % 4 == 0 and year % 100 != 0) or year % 400 == 0)
     pass
+
+
+"""
+Funkcja sprawdza, czy liczba jest parzysta
+"""
+def isEven(value):
+    if(value % 2 == 0):
+        return True
+    return False
+    pass
