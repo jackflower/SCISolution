@@ -1,5 +1,16 @@
 ﻿#include "Functions.h"
 
+//Funckja podwaja wartość parametru
+void doubling(int & value)
+{
+	value = value * 2;
+}
+
+//Funkcja zwraca sumę dwóch liczb całkowitych
+int sum(int a, int b)
+{
+	return (a + b);
+}
 
 //Funkcja zamienia wartości paramatrów
 void swap(int& a, int& b)

@@ -5,7 +5,13 @@
 
 """
 import SCIPython
+import Tea
 
 # testy
-print(SCIPython.isEven(34))
+czarna = Tea.Tea()
+zielona = Tea.Tea()
+
+#print(SCIPython.isEven(34))
+print(czarna)
+print(zielona)
 

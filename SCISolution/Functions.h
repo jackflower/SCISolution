@@ -2,6 +2,21 @@
 #define H_SCI
 
 ///
+///Funckja podwaja wartość parametru
+///
+///@param value - referencja
+///
+void doubling(int & value);
+
+///
+///Funkcja zwraca sumę dwóch liczb całkowitych
+///
+///@param a - parametr - składnik
+///
+///@param b - parametr - składnik
+int sum(int a, int b);
+
+///
 ///Funkcja zamienia wartości paramatrów
 ///
 ///@param a - referencja - pierwsza wartość
