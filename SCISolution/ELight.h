@@ -1,8 +1,8 @@
-#ifndef H_ELIGHT
+﻿#ifndef H_ELIGHT
 #define H_ELIGHT
 
 ///
-///Wyliczenie stan�w sygnalizacji
+///Wyliczenie stanów sygnalizacji
 ///
 enum class ELight
 {

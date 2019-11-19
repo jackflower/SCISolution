@@ -5,27 +5,30 @@
 
 int main()
 {
-	int value = 100;
-	bool state = false;
 
 
-
-	//while (value)
-	//{
-	//	std::cout << "-------------------" << std::endl;
-	//	value--;
-	//}
-
-	//do
-	//{
-	//	std::cout << "-------------------" << std::endl;
-	//} while (state);
-
+	//pętla czasu rzeczywistego Wiedźmin13
 	getchar();
 	return 0;
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /*
+
+int value = 100;
+bool state = false;
+
 ELight swiatla = ELight::GREEN;
 
 switch (swiatla)
