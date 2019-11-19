@@ -1,6 +1,6 @@
 ﻿#include "Functions.h"
 
-//Funckja podwaja wartość parametru
+//Funkcja podwaja wartość parametru
 void doubling(int & value)
 {
 	value = value * 2;
@@ -117,4 +117,11 @@ bool leapYear(int year)
 	//dzieli się przez 4 i nie dzieli się przez 100,
 	//za wyjątkiem lat podzielnych przez 400
 	return ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
+}
+
+//Funkcja mnoży każdy element tablicy przez dwa
+void doublingTab(int tab[], int tab_size)
+{
+	for (int i = 0; i < tab_size; i++)
+		tab[i] = tab[i] * 2;
 }

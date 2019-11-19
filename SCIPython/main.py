@@ -24,8 +24,11 @@ tablica.append(3)
 tab = [1, 23, 4, 6, 12, 7]
 print(tab)
 #zmieniamy wartość trzeciego elementu (4) na wartość -58
-tab[2] = -58
+#tab[2] = -58
+#print(tab)
+
+SCIPython.doublingTab(tab,6)
 print(tab)
 
 
-#tablica = 
+print(SCIPython.switch_demo(4))

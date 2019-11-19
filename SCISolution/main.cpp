@@ -1,38 +1,50 @@
 ﻿#include <iostream>
 #include "Functions.h"
 #include "Tea.h"
+#include "ELight.h"
 
 int main()
 {
-	//tablica na 10 elementów typu int
-	int tablica[10];
-
-	//tablica na pięć elementów typu int
-	//wraz z ich zainicjowaniem wartościami
-	//podanymi w nawiasach klamrowych
-	int tab[5] = { 1, 45, -6, 12, 78 };
-
-	//deklaracja rozmiaru tablicy
-	//musi być const
-	const int rozmiar = 100;
-	//tablica o takim rozmiarze
-	//(zapis w nawiasach klamrowych
-	//spowoduje, że wszystkie elementy tablicy
-	//będą miały wartość 0
-	int centurion[rozmiar] = { 0 };
-
-	//elementowi ósmemu - pod indeksem siódmym
-	//nadajemy wartość 123
-	centurion[7] = 123;
+	int value = 100;
+	bool state = false;
 
 
-	int liczba = 10;
-	doubling(liczba);//wywołanie funckji z argumentem o wartości 10
-	//po wykonaniu funkcji zmienna liczba będzie miała wartość 20
-	
 
+	//while (value)
+	//{
+	//	std::cout << "-------------------" << std::endl;
+	//	value--;
+	//}
+
+	//do
+	//{
+	//	std::cout << "-------------------" << std::endl;
+	//} while (state);
 
 	getchar();
 	return 0;
 }
 
+/*
+ELight swiatla = ELight::GREEN;
+
+switch (swiatla)
+{
+case ELight::YELLOW:
+//code
+break;
+case ELight::GREEN:
+//code
+break;
+case ELight::RED:
+//code
+break;
+default:
+//code
+break;
+}
+
+//std::cout << (int)swiatla << std::endl;
+std::cout << (int)swiatla << std::endl;
+
+*/

@@ -2,7 +2,7 @@
 #define H_SCI
 
 ///
-///Funckja podwaja wartość parametru
+///Funkcja podwaja wartość parametru
 ///
 ///@param value - referencja
 ///
@@ -121,5 +121,14 @@ bool isEven(int value);
 ///@param year - rok
 ///
 bool leapYear(int year);
+
+///
+///Funkcja mnoży każdy element tablicy przez dwa
+///
+///@param tab[] - tablica
+///
+///@param tab_size - rozmiar tablicy
+///
+void doublingTab(int tab[], int tab_size);
 
 #endif//H_SCI

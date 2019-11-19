@@ -85,3 +85,25 @@ def isEven(value):
         return True
     return False
     pass
+
+"""
+Funkcja mnoży każdy element tablicy przez dwa
+"""
+def doublingTab(tab, tab_size):
+    for i in range(tab_size):
+        tab[i] = tab[i] * 2
+        pass
+
+"""
+Funckcja - opakowanie funkcjonalności instrukcji switch
+"""
+def switch_demo(rate) :
+    switcher = {
+	1 : "Niedostateczny",
+	2 : "Dopuszczający",
+	3 : "Dostateczny",
+	4 : "Dobry",
+	5 : "Bardzo dobry",
+	6 : "Celujący"
+	}
+    return (switcher.get(rate, "invalid rate"))

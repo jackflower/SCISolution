@@ -120,6 +120,7 @@
     <ClCompile Include="Tea.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ELight.h" />
     <ClInclude Include="Functions.h" />
     <ClInclude Include="Tea.h" />
   </ItemGroup>
