@@ -2,12 +2,19 @@
 #include "Functions.h"
 #include "Tea.h"
 #include "ELight.h"
+#include "ERate.h"
 
 int main()
 {
-
+	int a = 9;
+	ERate oceny = ERate::BARDZO_DOBRY;
+	std::cout << (int)oceny << std::endl;
 
 	//pętla czasu rzeczywistego Wiedźmin13
+	//: )))
+
+
+
 	getchar();
 	return 0;
 

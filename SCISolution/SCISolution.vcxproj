@@ -121,6 +121,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ELight.h" />
+    <ClInclude Include="ERate.h" />
     <ClInclude Include="Functions.h" />
     <ClInclude Include="Tea.h" />
   </ItemGroup>

@@ -6,6 +6,8 @@
 """
 import SCIPython
 import Tea
+#from enum import Enum
+import enum
 
 # testy
 czarna = Tea.Tea()
@@ -32,3 +34,10 @@ print(tab)
 
 
 print(SCIPython.switch_demo(4))
+
+class Color(Enum):
+    RED = 1
+    GREEN = 2
+    BLUE = 3
+
+Color.RED
