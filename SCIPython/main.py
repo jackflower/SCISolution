@@ -33,11 +33,14 @@ SCIPython.doublingTab(tab,6)
 print(tab)
 
 
-print(SCIPython.switch_demo(4))
+print(SCIPython.switch_demo(8))
 
+
+"""
 class Color(Enum):
     RED = 1
     GREEN = 2
     BLUE = 3
 
 Color.RED
+"""
