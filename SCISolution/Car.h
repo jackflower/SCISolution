@@ -1,4 +1,4 @@
-#ifndef H_CAR
+ï»¿#ifndef H_CAR
 #define H_CAR
 
 ///
@@ -9,7 +9,7 @@ class Car
 public:
 
 	///
-	///Konstruktor domyœlny (ctor)
+	///Konstruktor domyÅ›lny (ctor)
 	///
 	Car();
 
@@ -19,21 +19,21 @@ public:
 	~Car();
 
 	///
-	///Metoda nadaje prêdkoœæ
+	///Metoda nadaje prÄ™dkoÅ›Ä‡
 	///
-	///@param speed - nadawana prêdkoœæ
+	///@param speed - nadawana prÄ™dkoÅ›Ä‡
 	///
 	void setSpeed(float speed);
 
 	///
-	///Metoda zwraca prêdkoœæ
+	///Metoda zwraca prÄ™dkoÅ›Ä‡
 	///
 	const float getSpeed() const;
 
 private:
 
-	int m_engine;//iloœæ silników
-	float m_speed;//prêdkoœæ
+	int m_engine;//iloÅ›Ä‡ silnikÃ³w
+	float m_speed;//prÄ™dkoÅ›Ä‡
 };
 
 #endif//H_CAR

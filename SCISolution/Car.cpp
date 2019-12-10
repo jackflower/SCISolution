@@ -1,6 +1,6 @@
-#include "Car.h"
+ï»¿#include "Car.h"
 
-//Konstruktor domyœlny (ctor)
+//Konstruktor domyÅ›lny (ctor)
 Car::Car():
 	m_engine{ 0 },
 	m_speed{ 0.0f }
@@ -12,13 +12,13 @@ Car::~Car()
 {
 }
 
-//Metoda nadaje prêdkoœæ
+//Metoda nadaje prÄ™dkoÅ›Ä‡
 void Car::setSpeed(float speed)
 {
 	m_speed = speed;
 }
 
-//Metoda zwraca prêdkoœæ
+//Metoda zwraca prÄ™dkoÅ›Ä‡
 const float Car::getSpeed() const
 {
 	return m_speed;
