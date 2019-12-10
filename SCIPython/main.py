@@ -8,6 +8,7 @@ import SCIPython
 import Tea
 #from enum import Enum
 import enum
+import pygame
 
 # testy
 czarna = Tea.Tea()
@@ -44,3 +45,7 @@ class Color(Enum):
 
 Color.RED
 """
+
+class Zenek():
+    
+    pass
