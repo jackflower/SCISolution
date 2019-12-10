@@ -18,9 +18,22 @@ public:
 	///
 	~Car();
 
+	///
+	///Metoda nadaje prêdkoœæ
+	///
+	///@param speed - nadawana prêdkoœæ
+	///
+	void setSpeed(float speed);
+
+	///
+	///Metoda zwraca prêdkoœæ
+	///
+	const float getSpeed() const;
 
 private:
-protected:
+
+	int m_engine;//iloœæ silników
+	float m_speed;//prêdkoœæ
 };
 
 #endif//H_CAR

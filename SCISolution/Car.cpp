@@ -1,14 +1,25 @@
 #include "Car.h"
-#include <iostream>
 
 //Konstruktor domyœlny (ctor)
-Car::Car()
+Car::Car():
+	m_engine{ 0 },
+	m_speed{ 0.0f }
 {
-	std::cout << "Urodzilem sie ! :) " << std::endl;
 }
 
 //Destruktor (dtor)
 Car::~Car()
 {
-	std::cout << "Zegnam swiat - spadam to Hell :( " << std::endl;
+}
+
+//Metoda nadaje prêdkoœæ
+void Car::setSpeed(float speed)
+{
+	m_speed = speed;
+}
+
+//Metoda zwraca prêdkoœæ
+const float Car::getSpeed() const
+{
+	return m_speed;
 }
