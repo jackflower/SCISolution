@@ -5,17 +5,17 @@
 #include "Brick.h"
 #include "Car.h"
 
+#include "Bicykle.h"
+
+using namespace world;
+
 int main()
 {
-	//int x = 89;
+	Bicykle rower;
 
-	Car autko;
-	autko.setSpeed(123.45f);
+	//Bicykle gorski(rower);
 
-	std::cout << autko.getSpeed() << std::endl;
-
-	//autko.
-
+	//rower.weight = 1223354;
 
 
 	getchar();
