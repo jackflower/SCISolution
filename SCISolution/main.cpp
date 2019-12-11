@@ -13,9 +13,8 @@ int main()
 {
 	Bicykle rower;
 
-	//Bicykle gorski(rower);
-
-	//rower.weight = 1223354;
+	rower.setWeight(1236.234f);
+	std::cout << rower.getWeight() << std::endl;
 
 
 	getchar();

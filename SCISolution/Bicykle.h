@@ -21,8 +21,17 @@ namespace world
 		///
 		~Bicykle();
 
-		int alfa();//metoda
+		///
+		///Metoda zwraca wagę roweru
+		///
+		const int getWeight() const;
 
+		///
+		///Metoda ustawia wagę roweru
+		///
+		///@param weight - waga
+		///
+		void setWeight(float weight);
 
 	private:
 
