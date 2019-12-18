@@ -10,6 +10,9 @@ import Tea
 import enum
 import pygame
 
+rowerek = Tea.Bicycle()
+
+
 # testy
 czarna = Tea.Tea()
 zielona = Tea.Tea()

@@ -4,18 +4,27 @@
 #include "ERate.h"
 #include "Brick.h"
 #include "Car.h"
-
 #include "Bicykle.h"
+
+#include <vector>
 
 using namespace world;
 
 int main()
 {
-	Bicykle rower;
+	Bicykle gorski;
 
-	rower.setWeight(1236.234f);
-	std::cout << rower.getWeight() << std::endl;
+	Bicykle china_entity(23);
 
+
+
+	int warta = 0;
+
+
+
+	
+	//autoko.setSpeed(123);
+	//std::cout << autoko.getSpeed() << std::endl;
 
 	getchar();
 	return 0;
