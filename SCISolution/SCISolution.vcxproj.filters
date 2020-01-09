@@ -13,48 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="suorce">
+      <UniqueIdentifier>{baea4829-3ff9-4d8f-afc6-1c8c392dc1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="suorce\class_demos">
+      <UniqueIdentifier>{3f80a073-df14-47f6-8c7c-96afc88210b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="suorce\functions">
+      <UniqueIdentifier>{1cbeefae-d5f6-44c0-93ab-f48e3def3fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="suorce\enumeration">
+      <UniqueIdentifier>{6ae4c66e-6710-439e-8eff-03f79f3444b7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="Functions.cpp">
-      <Filter>Pliki źródłowe</Filter>
+    <ClCompile Include="source\class_demos\Car.cpp">
+      <Filter>suorce\class_demos</Filter>
     </ClCompile>
-    <ClCompile Include="Tea.cpp">
-      <Filter>Pliki źródłowe</Filter>
+    <ClCompile Include="source\functions\Functions.cpp">
+      <Filter>suorce\functions</Filter>
     </ClCompile>
-    <ClCompile Include="Brick.cpp">
-      <Filter>Pliki źródłowe</Filter>
+    <ClCompile Include="source\class_demos\Bicykle.cpp">
+      <Filter>suorce\class_demos</Filter>
     </ClCompile>
-    <ClCompile Include="Car.cpp">
-      <Filter>Pliki źródłowe</Filter>
+    <ClCompile Include="source\class_demos\Brick.cpp">
+      <Filter>suorce\class_demos</Filter>
     </ClCompile>
-    <ClCompile Include="Bicykle.cpp">
-      <Filter>Pliki źródłowe</Filter>
+    <ClCompile Include="source\class_demos\Tea.cpp">
+      <Filter>suorce\class_demos</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Functions.h">
-      <Filter>Pliki nagłówkowe</Filter>
+    <ClInclude Include="source\class_demos\Car.h">
+      <Filter>suorce\class_demos</Filter>
     </ClInclude>
-    <ClInclude Include="Tea.h">
-      <Filter>Pliki nagłówkowe</Filter>
+    <ClInclude Include="source\functions\Functions.h">
+      <Filter>suorce\functions</Filter>
     </ClInclude>
-    <ClInclude Include="ELight.h">
-      <Filter>Pliki nagłówkowe</Filter>
+    <ClInclude Include="source\class_demos\Bicykle.h">
+      <Filter>suorce\class_demos</Filter>
     </ClInclude>
-    <ClInclude Include="ERate.h">
-      <Filter>Pliki nagłówkowe</Filter>
+    <ClInclude Include="source\class_demos\Brick.h">
+      <Filter>suorce\class_demos</Filter>
     </ClInclude>
-    <ClInclude Include="Brick.h">
-      <Filter>Pliki nagłówkowe</Filter>
+    <ClInclude Include="source\enumeration\ELight.h">
+      <Filter>suorce\enumeration</Filter>
     </ClInclude>
-    <ClInclude Include="Car.h">
-      <Filter>Pliki nagłówkowe</Filter>
+    <ClInclude Include="source\enumeration\ERate.h">
+      <Filter>suorce\enumeration</Filter>
     </ClInclude>
-    <ClInclude Include="Bicykle.h">
-      <Filter>Pliki nagłówkowe</Filter>
+    <ClInclude Include="source\class_demos\Tea.h">
+      <Filter>suorce\class_demos</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

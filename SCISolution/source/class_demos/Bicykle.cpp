@@ -30,7 +30,7 @@ namespace world
 	}
 
 	//Metoda zwraca wagę roweru
-	const int Bicykle::getWeight() const
+	const float Bicykle::getWeight() const
 	{
 		return m_weight;
 	}

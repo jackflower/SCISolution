@@ -14,10 +14,16 @@ class Car(object):
 
 class Bicycle(object):
     def __init__(self):
-        __self.weight__ = 0
-        __self.tire__ = 0
+        self.__weight__ = 199
+        self.__tire__ = 299
         pass
 
+    pass
+
+class Demo():
+    def __init__(self):
+        self.one = 111
+        self.two = 222
     pass
 
 

@@ -35,7 +35,7 @@ namespace world
 		///
 		///Metoda zwraca wagę roweru
 		///
-		const int getWeight() const;
+		const float getWeight() const;
 
 		///
 		///Metoda ustawia wagę roweru

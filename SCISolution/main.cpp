@@ -1,10 +1,9 @@
 ﻿#include <iostream>
-#include "Functions.h"
-#include "ELight.h"
-#include "ERate.h"
-#include "Brick.h"
-#include "Car.h"
-#include "Bicykle.h"
+#include "source/functions/Functions.h"
+#include "source/enumeration/ELight.h"
+#include "source/enumeration/ERate.h"
+#include "source/class_demos/Brick.h"
+#include "source/class_demos/Bicykle.h"
 
 #include <vector>
 

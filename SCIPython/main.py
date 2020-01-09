@@ -10,34 +10,47 @@ import Tea
 import enum
 import pygame
 
-rowerek = Tea.Bicycle()
+#rowerek = Tea.Bicycle()
+#print (rowerek.__weight__)
+
+
+#demko = Tea.Demo()
+#print(demko.one)
+#print(demko.two)
 
 
 # testy
-czarna = Tea.Tea()
-zielona = Tea.Tea()
+#czarna = Tea.Tea()
+#zielona = Tea.Tea()
 
 #print(SCIPython.isEven(34))
-print(czarna)
-print(zielona)
+#print(czarna)
+#print(zielona)
 
-tablica = []
-tablica.append(1)
-tablica.append(2)
-tablica.append(3)
+#tablica = []
+#tablica.append(1)
+#tablica.append(2)
+#tablica.append(3)
 
 #tablica tab 6-cio elementowa
-tab = [1, 23, 4, 6, 12, 7]
-print(tab)
+#tab = [1, 23, 4, 6, 12, 7]
+#print(tab)
 #zmieniamy wartość trzeciego elementu (4) na wartość -58
 #tab[2] = -58
 #print(tab)
 
-SCIPython.doublingTab(tab,6)
-print(tab)
+#SCIPython.doublingTab(tab,6)
+#print(tab)
 
 
-print(SCIPython.switch_demo(8))
+#print(SCIPython.switch_demo(8))
+
+
+for wiersz in range(1,11):
+    for kolumna in range(1,11):
+        print(wiersz*kolumna, end="	")
+    print()
+
 
 
 """
@@ -48,7 +61,3 @@ class Color(Enum):
 
 Color.RED
 """
-
-class Zenek():
-    
-    pass
