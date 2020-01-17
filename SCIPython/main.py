@@ -45,7 +45,6 @@ import pygame
 
 #print(SCIPython.switch_demo(8))
 
-
 for wiersz in range(1,11):
     for kolumna in range(1,11):
         print(wiersz*kolumna, end="	")

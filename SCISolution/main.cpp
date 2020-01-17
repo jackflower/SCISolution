@@ -1,62 +1,25 @@
 ﻿#include <iostream>
-#include "source/functions/Functions.h"
-#include "source/enumeration/ELight.h"
-#include "source/enumeration/ERate.h"
-#include "source/class_demos/Brick.h"
-#include "source/class_demos/Bicykle.h"
-
-#include <vector>
-
-using namespace world;
+#include <fstream>
+#include <string>
 
 int main()
 {
-	Bicykle gorski;
+	//odczyt pliku
+	std::fstream plik;
+	plik.open("barwy.txt", std::ios::in);
+	std::string napis;
+	unsigned counter = 0;
 
-	Bicykle china_entity(23);
+	while (!plik.eof())
+	{
+		std::getline(plik, napis);
+		if (napis == "RED")
+			counter++;
+		std::cout << napis << std::endl;
+	}
 
-
-
-	int warta = 0;
-
-
-
-	
-	//autoko.setSpeed(123);
-	//std::cout << autoko.getSpeed() << std::endl;
+	std::cout << counter << std::endl;
 
 	getchar();
 	return 0;
-
 }
-
-
-
-
-
-
-
-
-/*
-int liczba = 12;
-int tajna = 45;
-
-int &ref_na_liczbe = liczba;
-
-std::cout << ref_na_liczbe << std::endl;
-
-liczba = 23;
-
-std::cout << ref_na_liczbe << std::endl;
-ref_na_liczbe = 43;
-
-std::cout << ref_na_liczbe << std::endl;
-std::cout << liczba << std::endl;
-
-//
-ref_na_liczbe = tajna;
-std::cout << liczba << std::endl;
-std::cout << tajna << std::endl;
-std::cout << ref_na_liczbe << std::endl;
-
-*/
