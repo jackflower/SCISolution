@@ -1,62 +1,77 @@
-"""
-  ________________________
- |    SCI - 2019-2020     |
- |________________________|
-
-"""
-import SCIPython
-import Tea
-#from enum import Enum
-import enum
 import pygame
+import physical
 
-#rowerek = Tea.Bicycle()
-#print (rowerek.__weight__)
+# Rozmiar okna
+WIDTH = 800
+HEIGHT = 600
 
+# FPS - ilość klatek na sekundę
+FPS = 60
 
-#demko = Tea.Demo()
-#print(demko.one)
-#print(demko.two)
+# Kolory
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+ALPHA = (0, 0, 0)
 
+# inicjalizajca bilbioteki PyGame
+pygame.init()
 
-# testy
-#czarna = Tea.Tea()
-#zielona = Tea.Tea()
+# tworzenie okna
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("Szczecińskie Collegium Informatyczne SCI 2020")
+icon = pygame.image.load("data/sci_ship_one.png")
+pygame.display.set_icon(icon)
 
-#print(SCIPython.isEven(34))
-#print(czarna)
-#print(zielona)
+# synchronizacja FPS
+clock = pygame.time.Clock()
 
-#tablica = []
-#tablica.append(1)
-#tablica.append(2)
-#tablica.append(3)
+ship = physical.Physical(400, 300)
+ship.load_image("data/sci_ship_two.png")
 
-#tablica tab 6-cio elementowa
-#tab = [1, 23, 4, 6, 12, 7]
-#print(tab)
-#zmieniamy wartość trzeciego elementu (4) na wartość -58
-#tab[2] = -58
-#print(tab)
-
-#SCIPython.doublingTab(tab,6)
-#print(tab)
-
-
-#print(SCIPython.switch_demo(8))
-
-for wiersz in range(1,11):
-    for kolumna in range(1,11):
-        print(wiersz*kolumna, end="	")
-    print()
+# rejestrujemy obiekty w kontenerze
+all_sprites = pygame.sprite.Group()
+all_sprites.add(ship)
 
 
+# zarządzanie czasem
+timer = 0  # czas do odliczania.
+dt = 0  # delta time (czas od ostatniego tyknięcia).
 
-"""
-class Color(Enum):
-    RED = 1
-    GREEN = 2
-    BLUE = 3
+# główna pętla gry - pętla czasu rzeczywistego
+running = True
+while running:
 
-Color.RED
-"""
+    # 1. aktualizacja czasu
+    clock.tick(FPS)
+
+    # testy...można to potem deaktywować...
+    dt = clock.tick(FPS)/1000
+    timer -= dt
+    if timer <= 0:
+        timer = 1  # Reset it to 10 or do something else.
+        print("Tik,tak...") # ... testy
+
+    # 2. aktualizacja zdarzeń
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+    # 3. aktualizacja gry
+    pygame.display.update()
+    ship.update()
+
+
+    # 4. rysowanie tła gry - rendering
+    screen.fill(WHITE)
+
+    # 5. rysowanie duszków na ekranie - rendering
+    all_sprites.draw(screen)
+
+    # 6. wysyłamy wszystko na ekran - dane do karty graficznej
+    pygame.display.flip()
+
+pygame.quit()  # zamykamy bibliotekę PyGame
+
