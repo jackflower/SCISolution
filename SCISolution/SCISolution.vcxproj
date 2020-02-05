@@ -121,6 +121,7 @@
     <ClCompile Include="source\functions\Functions.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="source\class_demos\Tea.cpp" />
+    <ClCompile Include="source\class_demos\SuperBicykle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\class_demos\Bicykle.h" />
@@ -130,6 +131,7 @@
     <ClInclude Include="source\enumeration\ERate.h" />
     <ClInclude Include="source\functions\Functions.h" />
     <ClInclude Include="source\class_demos\Tea.h" />
+    <ClInclude Include="source\class_demos\SuperBicykle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

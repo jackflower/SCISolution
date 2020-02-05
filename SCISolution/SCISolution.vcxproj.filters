@@ -45,6 +45,9 @@
     <ClCompile Include="main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="source\class_demos\SuperBicykle.cpp">
+      <Filter>source\class_demos</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\class_demos\Car.h">
@@ -66,6 +69,9 @@
       <Filter>source\enumeration</Filter>
     </ClInclude>
     <ClInclude Include="source\class_demos\Tea.h">
+      <Filter>source\class_demos</Filter>
+    </ClInclude>
+    <ClInclude Include="source\class_demos\SuperBicykle.h">
       <Filter>source\class_demos</Filter>
     </ClInclude>
   </ItemGroup>

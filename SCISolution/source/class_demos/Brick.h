@@ -17,8 +17,11 @@ public:
 	///Destruktor (dtor)
 	///
 	~Brick();
+
 private:
+
 protected:
+
 };
 #endif//H_BRICK_SCI
 

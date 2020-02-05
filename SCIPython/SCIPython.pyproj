@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86d75df6-27a6-45c2-a8b1-b477d2cc1e3a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>pliki.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="physical.py" />
+    <Compile Include="pliki.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="SCIPython.py" />
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +40,7 @@
     <Folder Include="__pycache__\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="datafile.txt" />
     <Content Include="data\sci_ship_one.png" />
     <Content Include="data\sci_ship_two.png" />
     <Content Include="__pycache__\SCIPython.cpython-36.pyc" />

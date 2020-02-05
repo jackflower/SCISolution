@@ -4,7 +4,7 @@
 #include <vector>
 #include "Car.h"
 
-//Standard Template Library
+//STL: Standard Template Library <vector>
 
 namespace world
 {
@@ -58,12 +58,15 @@ namespace world
 
 		std::vector<short> m_cone;// kontener na szyszki
 		std::vector<Car> m_cars;// kontener na autka
+		const float m_frame;//rama - jakaś licza
 
-		const float m_frame;
-
-	
 	protected:
+
+		//spadek - to pole jest public: dla klas pochodnych
+		//a private: dla innych
+		float m_fall;
+		
 	};
 
+}//namespace world
 #endif//H_BICYCKLE
-}

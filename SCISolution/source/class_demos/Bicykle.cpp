@@ -1,8 +1,10 @@
 ﻿#include "Bicykle.h"
+#include <fstream>
+#include <iostream>
 
 namespace world
 {
-	//ctor
+	//Konstruktor domyślny (ctor)
 	Bicykle::Bicykle():
 		m_weight{ 0.0f},
 		m_tire{ 0.0f },
@@ -11,7 +13,7 @@ namespace world
 	{
 	}
 
-	//Konstruktor parametryczny
+	//Konstruktor parametryczny (ctor)
 	Bicykle::Bicykle(short gift):
 		m_weight{ 0.0f },
 		m_tire{ 0.0f },
@@ -21,12 +23,21 @@ namespace world
 			m_cone.push_back(gift);
 	}
 
-	//dtor
+	//Destruktor (dtor)
 	Bicykle::~Bicykle()
 	{
 		m_weight = 0;
 		m_tire = 0;
 		m_cone;
+
+		//test działania destruktora, który zapisuje do pliku
+		//przykładową wartość
+		//zapisujemy do pliku coś.. m_frame{-34.54f}
+		std::fstream plik;
+		plik.open("rama.txt", std::ios::out);
+		plik << m_frame;
+		plik.close();
+		std::cout << "Zapisano liczbę..." << std::endl;
 	}
 
 	//Metoda zwraca wagę roweru
@@ -45,10 +56,6 @@ namespace world
 	void Bicykle::addCone(short cone)
 	{
 		m_cone.push_back(cone);
-		//moja większa twoja
-		//moja lubić slonia
-		//this->
-		//Visual Basic
-		//Me.
 	}
-}
+}//namespace world
+
