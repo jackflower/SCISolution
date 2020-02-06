@@ -1,8 +1,8 @@
-#ifndef H_BRICK_SCI
+ï»¿#ifndef H_BRICK_SCI
 #define H_BRICK_SCI
 
 ///
-///Klasa rezprezentuje funkcjonalnoœæ ceg³y
+///Klasa rezprezentuje funkcjonalnoÅ›Ä‡ cegÅ‚y
 ///
 class Brick
 {

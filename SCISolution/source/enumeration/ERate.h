@@ -1,4 +1,4 @@
-#ifndef H_ERATE
+﻿#ifndef H_ERATE
 #define H_ERATE
 
 ///

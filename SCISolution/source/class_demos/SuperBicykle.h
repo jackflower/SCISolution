@@ -1,4 +1,4 @@
-#ifndef H_SUPER_BICYCKLE
+ï»¿#ifndef H_SUPER_BICYCKLE
 #define H_SUPER_BICYCKLE
 
 #include "Bicykle.h"
@@ -6,15 +6,15 @@
 namespace world
 {
 	///
-	///Klasa (pochodna) reprezentuje klasê pochodn¹ rozszerzaj¹c¹
-	///funkcjonalnoœæ klasy (bazowej) Bicykle
+	///Klasa (pochodna) reprezentuje klasÄ™ pochodnÄ… rozszerzajÄ…cÄ…
+	///funkcjonalnoÅ›Ä‡ klasy (bazowej) Bicykle
 	///
 	class SuperBicykle : public Bicykle
 	{
 	public:
 
 		///
-		///Konstruktor domyœlny
+		///Konstruktor domyÅ›lny
 		///
 		SuperBicykle();
 

@@ -1,12 +1,12 @@
-#include "SuperBicykle.h"
+Ôªø#include "SuperBicykle.h"
 
 
 namespace world
 {
-	//Konstruktor domyúlny
+	//Konstruktor domy≈õlny
 	SuperBicykle::SuperBicykle()
 	:
-		Bicykle{}//wywo≥anie konstruktora klasy bazowej
+		Bicykle{}//wywo≈Çanie konstruktora klasy bazowej
 	{
 	}
 

@@ -1,8 +1,8 @@
-#ifndef H_TEA
+ï»¿#ifndef H_TEA
 #define H_TEA
 
 ///
-///Klasa reprezentuje herbatê
+///Klasa reprezentuje herbatÄ™
 ///
 class Tea
 {
@@ -18,10 +18,10 @@ private:
 	//
 
 
-	//zaparzaæ
-	//stygn¹æ
+	//zaparzaÄ‡
+	//stygnÄ…Ä‡
 	//wypijanie
-	//podgrzewaæ
+	//podgrzewaÄ‡
 
 
 protected:
