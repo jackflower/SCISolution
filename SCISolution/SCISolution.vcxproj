@@ -118,6 +118,7 @@
     <ClCompile Include="source\class_demos\Bicykle.cpp" />
     <ClCompile Include="source\class_demos\Brick.cpp" />
     <ClCompile Include="source\class_demos\Car.cpp" />
+    <ClCompile Include="source\class_demos\Point2D.cpp" />
     <ClCompile Include="source\functions\Functions.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="source\class_demos\Tea.cpp" />
@@ -127,6 +128,7 @@
     <ClInclude Include="source\class_demos\Bicykle.h" />
     <ClInclude Include="source\class_demos\Brick.h" />
     <ClInclude Include="source\class_demos\Car.h" />
+    <ClInclude Include="source\class_demos\Point2D.h" />
     <ClInclude Include="source\enumeration\ELight.h" />
     <ClInclude Include="source\enumeration\ERate.h" />
     <ClInclude Include="source\functions\Functions.h" />

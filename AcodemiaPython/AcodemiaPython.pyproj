@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{51f87bf7-6765-4b1f-b75f-c226861e374a}</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>planting.py</StartupFile>
+    <StartupFile>game_number.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="game_number.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="gui_acodemia.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tree.py" />
     <Compile Include="main.py">
       <SubType>Code</SubType>

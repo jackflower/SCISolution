@@ -48,6 +48,9 @@
     <ClCompile Include="source\class_demos\SuperBicykle.cpp">
       <Filter>source\class_demos</Filter>
     </ClCompile>
+    <ClCompile Include="source\class_demos\Point2D.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="source\class_demos\Car.h">
@@ -72,6 +75,9 @@
       <Filter>source\class_demos</Filter>
     </ClInclude>
     <ClInclude Include="source\class_demos\SuperBicykle.h">
+      <Filter>source\class_demos</Filter>
+    </ClInclude>
+    <ClInclude Include="source\class_demos\Point2D.h">
       <Filter>source\class_demos</Filter>
     </ClInclude>
   </ItemGroup>
